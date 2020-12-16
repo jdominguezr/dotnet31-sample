@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>HelloWordAPI</id>
+    <version>1.0.0</version>
+    <title>SFP</title>
+    <authors>Juan Dominguez</authors>
+	<owners>juan.a.dominguez@walmart.com</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>http://project_url_here_or_delete_this_line/</projectUrl>
+    <iconUrl>http://icon_url_here_or_delete_this_line/</iconUrl>
+    <description>Hello Word's API to test CI/CD flow</description>
+    <releaseNotes>Plese use the flow created for CTP Team</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>Tag1 Tag2</tags>
+  </metadata>
+</package>

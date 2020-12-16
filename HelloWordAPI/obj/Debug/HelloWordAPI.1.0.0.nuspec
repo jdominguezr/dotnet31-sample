@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>HelloWordAPI</id>
+    <version>1.0.0</version>
+    <authors>HelloWordAPI</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/netcoreapp3.1/appsettings.Development.json" buildAction="Content" />
+      <files include="any/netcoreapp3.1/appsettings.json" buildAction="Content" />
+      <files include="any/netcoreapp3.1/Properties/launchSettings.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\vn0pd27\Desktop\DOTNET\HelloWordAPI\HelloWordAPI\bin\Debug\netcoreapp3.1\HelloWordAPI.runtimeconfig.json" target="lib\netcoreapp3.1\HelloWordAPI.runtimeconfig.json" />
+    <file src="C:\Users\vn0pd27\Desktop\DOTNET\HelloWordAPI\HelloWordAPI\bin\Debug\netcoreapp3.1\HelloWordAPI.dll" target="lib\netcoreapp3.1\HelloWordAPI.dll" />
+    <file src="C:\Users\vn0pd27\Desktop\DOTNET\HelloWordAPI\HelloWordAPI\bin\Debug\netcoreapp3.1\HelloWordAPI.xml" target="lib\netcoreapp3.1\HelloWordAPI.xml" />
+    <file src="C:\Users\vn0pd27\Desktop\DOTNET\HelloWordAPI\HelloWordAPI\appsettings.Development.json" target="content\appsettings.Development.json" />
+    <file src="C:\Users\vn0pd27\Desktop\DOTNET\HelloWordAPI\HelloWordAPI\appsettings.Development.json" target="contentFiles\any\netcoreapp3.1\appsettings.Development.json" />
+    <file src="C:\Users\vn0pd27\Desktop\DOTNET\HelloWordAPI\HelloWordAPI\appsettings.json" target="content\appsettings.json" />
+    <file src="C:\Users\vn0pd27\Desktop\DOTNET\HelloWordAPI\HelloWordAPI\appsettings.json" target="contentFiles\any\netcoreapp3.1\appsettings.json" />
+    <file src="C:\Users\vn0pd27\Desktop\DOTNET\HelloWordAPI\HelloWordAPI\Properties\launchSettings.json" target="content\Properties\launchSettings.json" />
+    <file src="C:\Users\vn0pd27\Desktop\DOTNET\HelloWordAPI\HelloWordAPI\Properties\launchSettings.json" target="contentFiles\any\netcoreapp3.1\Properties\launchSettings.json" />
+  </files>
+</package>
